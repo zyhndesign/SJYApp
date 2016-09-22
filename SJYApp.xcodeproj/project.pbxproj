@@ -48,7 +48,6 @@
 		D5E3C99D19205CEB00BB5F7E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E3C99C19205CEB00BB5F7E /* SystemConfiguration.framework */; };
 		D5E3C99F19205CFA00BB5F7E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E3C99E19205CFA00BB5F7E /* AudioToolbox.framework */; };
 		D5E3C9A119205D0200BB5F7E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E3C9A019205D0200BB5F7E /* CoreData.framework */; };
-		D5E3C9A319206F6800BB5F7E /* HomeBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E3C9A219206F6800BB5F7E /* HomeBoard.xib */; };
 		D5E3C9A51920762000BB5F7E /* LandscapeBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E3C9A41920762000BB5F7E /* LandscapeBoard.xib */; };
 		D5E3C9A719207BD900BB5F7E /* HumanityBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E3C9A619207BD900BB5F7E /* HumanityBoard.xib */; };
 		D5E3C9A919207D6E00BB5F7E /* StoryBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E3C9A819207D6E00BB5F7E /* StoryBoard.xib */; };
@@ -80,7 +79,6 @@
 		D5E3C9F71920BAEE00BB5F7E /* DownloadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E3C9F61920BAEE00BB5F7E /* DownloadTableViewCell.m */; };
 		D5E3C9FD1920BE4C00BB5F7E /* UIImageView+RotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E3C9FC1920BE4C00BB5F7E /* UIImageView+RotationAnimation.m */; };
 		D5E3CA021920C18400BB5F7E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E3CA011920C18400BB5F7E /* SplashViewController.m */; };
-		D5E802DD19259BEE00D3056A /* hasvideo.png in Resources */ = {isa = PBXBuildFile; fileRef = D5E802DC19259BEE00D3056A /* hasvideo.png */; };
 		D5E9B50C1922FD4D00DF254B /* UILabel+VerticalAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E9B50B1922FD4D00DF254B /* UILabel+VerticalAlign.m */; };
 		D5E9B5121923283200DF254B /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E9B5111923283200DF254B /* VideoViewController.m */; };
 		D5E9B5141923286000DF254B /* VideoPlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E9B5131923286000DF254B /* VideoPlay.xib */; };
@@ -95,6 +93,8 @@
 		D5EDE6A419248F90008D571E /* MusicPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EDE6A319248F90008D571E /* MusicPlayerView.xib */; };
 		D5EDE6A719249194008D571E /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDE6A619249194008D571E /* MusicViewController.m */; };
 		D5EDE6AB1924AC84008D571E /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDE6AA1924AC84008D571E /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DB2B58B41D936FEF005066B2 /* HomeBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2B58B31D936FEF005066B2 /* HomeBoard.xib */; };
+		DB2B58B61D937EC2005066B2 /* hasvideo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2B58B51D937EC2005066B2 /* hasvideo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,7 +181,6 @@
 		D5E3C99C19205CEB00BB5F7E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D5E3C99E19205CFA00BB5F7E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D5E3C9A019205D0200BB5F7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		D5E3C9A219206F6800BB5F7E /* HomeBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeBoard.xib; path = HYH/xibs/HomeBoard.xib; sourceTree = SOURCE_ROOT; };
 		D5E3C9A41920762000BB5F7E /* LandscapeBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeBoard.xib; sourceTree = "<group>"; };
 		D5E3C9A619207BD900BB5F7E /* HumanityBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HumanityBoard.xib; sourceTree = "<group>"; };
 		D5E3C9A819207D6E00BB5F7E /* StoryBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryBoard.xib; sourceTree = "<group>"; };
@@ -234,7 +233,6 @@
 		D5E3C9FC1920BE4C00BB5F7E /* UIImageView+RotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RotationAnimation.m"; sourceTree = "<group>"; };
 		D5E3CA001920C18400BB5F7E /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		D5E3CA011920C18400BB5F7E /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
-		D5E802DC19259BEE00D3056A /* hasvideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hasvideo.png; sourceTree = "<group>"; };
 		D5E9B50A1922FD4D00DF254B /* UILabel+VerticalAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VerticalAlign.h"; sourceTree = "<group>"; };
 		D5E9B50B1922FD4D00DF254B /* UILabel+VerticalAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalAlign.m"; sourceTree = "<group>"; };
 		D5E9B5101923283200DF254B /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
@@ -256,6 +254,8 @@
 		D5EDE6A619249194008D571E /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		D5EDE6A91924AC84008D571E /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
 		D5EDE6AA1924AC84008D571E /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		DB2B58B31D936FEF005066B2 /* HomeBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBoard.xib; sourceTree = "<group>"; };
+		DB2B58B51D937EC2005066B2 /* hasvideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hasvideo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,7 +383,7 @@
 		D58DA473191B60A000D900DE /* images */ = {
 			isa = PBXGroup;
 			children = (
-				D5E802DC19259BEE00D3056A /* hasvideo.png */,
+				DB2B58B51D937EC2005066B2 /* hasvideo.png */,
 				D58DA50B191B700C00D900DE /* music_entrance.gif */,
 				D58DA50C191B700C00D900DE /* video.png */,
 			);
@@ -498,7 +498,7 @@
 		D58DA4CD191B60A000D900DE /* xibs */ = {
 			isa = PBXGroup;
 			children = (
-				D5E3C9A219206F6800BB5F7E /* HomeBoard.xib */,
+				DB2B58B31D936FEF005066B2 /* HomeBoard.xib */,
 				D5E3C9A41920762000BB5F7E /* LandscapeBoard.xib */,
 				D5E3C9A619207BD900BB5F7E /* HumanityBoard.xib */,
 				D5E3C9A819207D6E00BB5F7E /* StoryBoard.xib */,
@@ -695,14 +695,14 @@
 				D5EDE6A419248F90008D571E /* MusicPlayerView.xib in Resources */,
 				D5E3C9AD1920802C00BB5F7E /* Footer.xib in Resources */,
 				D5E3C9B519209BCB00BB5F7E /* CommunityContentPanel.xib in Resources */,
+				DB2B58B61D937EC2005066B2 /* hasvideo.png in Resources */,
 				D5E3C9B119209B9600BB5F7E /* HumanityContentPanel.xib in Resources */,
 				D5E3C9F21920B9B800BB5F7E /* DownloadWin.xib in Resources */,
 				D5E3C9AB19207EAE00BB5F7E /* CommunityBoard.xib in Resources */,
-				D5E3C9A319206F6800BB5F7E /* HomeBoard.xib in Resources */,
 				D5E9B5141923286000DF254B /* VideoPlay.xib in Resources */,
+				DB2B58B41D936FEF005066B2 /* HomeBoard.xib in Resources */,
 				D5E9B52319233E5200DF254B /* 404-1.png in Resources */,
 				D5E9B51E19233E0200DF254B /* 404.css in Resources */,
-				D5E802DD19259BEE00D3056A /* hasvideo.png in Resources */,
 				D5E3C9B319209BAE00BB5F7E /* StoryContentPanel.xib in Resources */,
 				D58DA456191B5F3000D900DE /* Images.xcassets in Resources */,
 				D5E9B532192354A700DF254B /* download_zh.plist in Resources */,
@@ -928,7 +928,7 @@
 				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HYH/NMGApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "SJYApp/SJYApp-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -961,7 +961,7 @@
 				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HYH/NMGApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "SJYApp/SJYApp-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
